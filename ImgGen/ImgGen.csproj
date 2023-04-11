@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="AMAZONEMBER-MD.TTF" />
+    <None Remove="AMAZONEMBER-MDIT.TTF" />
+    <None Remove="AMAZONEMBER_BD.TTF" />
+    <None Remove="AMAZONEMBER_BDIT.TTF" />
+    <None Remove="AMAZONEMBER_HE.TTF" />
+    <None Remove="AMAZONEMBER_HEIT.TTF" />
+    <None Remove="AMAZONEMBER_LT.TTF" />
+    <None Remove="AMAZONEMBER_LTIT.TTF" />
+    <None Remove="AMAZONEMBER_RG.TTF" />
+    <None Remove="AMAZONEMBER_RGIT.TTF" />
+    <None Remove="AMAZONEMBER_TH.TTF" />
+    <None Remove="AMAZONEMBER_THIT.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\AMAZONEMBER-MD.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER-MDIT.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_BD.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_BDIT.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_HE.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_HEIT.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_LT.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_LTIT.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_RG.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_RGIT.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_TH.TTF" />
+    <EmbeddedResource Include="Fonts\AMAZONEMBER_THIT.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="SixLabors.Fonts" Version="1.0.0-beta0013" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta11" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+</Project>
